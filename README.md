@@ -10,4 +10,4 @@ Un TACAI es un avatar que te ayudará en todos tus deberes escolares este te aco
 
 [Crealo aqui](http://tacaibot.me/avatar.html "Crealo aqui")   
 
-[![img](img "img")](https://github.com/ivansanguezax/Tacaibot/blob/master/about_04.jpg?raw=true "img")
+![Imagen](https://github.com/ivansanguezax/Tacaibot/blob/master/about_04.jpg?raw=true)

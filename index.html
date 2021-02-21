@@ -1,0 +1,786 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Basic -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+    
+        <!-- Mobile Metas -->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+        <!-- Site Metas -->
+        <title>G-Learn Plataforma Educativa</title>  
+        <meta name="keywords" content="">
+        <meta name="description" content="">
+        <meta name="author" content="">
+
+        <!-- Site Icons -->
+        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+        <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+        <!-- Bootstrap CSS -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <!-- Site CSS -->
+        <link rel="stylesheet" href="style.css">
+        <!-- ALL VERSION CSS -->
+        <link rel="stylesheet" href="css/versions.css">
+        <!-- Responsive CSS -->
+        <link rel="stylesheet" href="css/responsive.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="css/custom.css">
+
+        <!-- Modernizer for Portfolio -->
+        <script src="js/modernizer.js"></script>
+
+    </head>
+
+    <body class="host_version"> 
+
+        <!-- Pantalla Login y Registro -->
+        <div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header tit-up">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    <h4 class="modal-title">Customer Login</h4>
+                </div>
+                <div class="modal-body customer-box">
+                    <!-- Nav tabs -->
+                    <ul class="nav nav-tabs">
+                        <li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+                        <li><a href="#Registration" data-toggle="tab">Registration</a></li>
+                    </ul>
+                    <!-- Tab panes -->
+                    <div class="tab-content">
+                        <div class="tab-pane active" id="Login">
+                            <form role="form" class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="email1" placeholder="Name" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-sm-10">
+                                        <button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+                                            Submit
+                                        </button>
+                                        <a class="for-pwd" href="javascript:;">Forgot your password?</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="tab-pane" id="Registration">
+                            <form role="form" class="form-horizontal">
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" placeholder="Name" type="text">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="email" placeholder="Email" type="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="mobile" placeholder="Mobile" type="email">
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-sm-12">
+                                        <input class="form-control" id="password" placeholder="Password" type="password">
+                                    </div>
+                                </div>
+                                <div class="row">							
+                                    <div class="col-sm-10">
+                                        <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                            Save &amp; Continue
+                                        </button>
+                                        <button type="button" class="btn btn-light btn-radius btn-brd grd1">
+                                            Cancel</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+        <!-- Fin Login y Registro -->
+
+        <!-- Inicio cabecera -->
+        <header class="top-navbar">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo.png" alt="" />
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbars-host">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item active"><a class="nav-link" href="index.html">Home Page</a></li>
+                            <li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#valores">Valores</a></li>
+                            <li class="nav-item"><a class="nav-link" href="#plan">Suscripcion</a></li>
+                            <li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Login</span></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <!-- Final Cabecera -->
+        
+        <!-- Inicio Primer Carrusel -->
+        <div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleControls" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="1"></li>
+                <li data-target="#carouselExampleControls" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" role="listbox">
+                <div class="carousel-item active">
+                    <div id="home" class="first-section" style="background-image:url('images/slider-01.jpg');">
+                        <div class="dtab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 text-right">
+                                        <div class="big-tagline">
+                                            <h2><strong>G-Learn</strong> Plataforma Educativa</h2>
+                                            <p class="lead">Aprende, Construe y Conecta </p>
+                                                <a href="#" class="hover-btn-new"><span>Contactanos</span></a>
+                                        </div>
+                                    </div>
+                                </div>            
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div id="home" class="first-section" style="background-image:url('images/slider-02.jpg');">
+                        <div class="dtab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 text-left">
+                                        <div class="big-tagline">
+                                            <h2 data-animation="animated zoomInRight">G-Learn <strong>Plataforma Educativa</strong></h2>
+                                            <p class="lead" data-animation="animated fadeInLeft">Aprende, Construye y Conecta </p>
+                                                <a href="#" class="hover-btn-new"><span>Contactanos</span></a>
+                                        </div>
+                                    </div>
+                                </div>          
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div id="home" class="first-section" style="background-image:url('images/slider-03.jpg');">
+                        <div class="dtab">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-12 col-sm-12 text-center">
+                                        <div class="big-tagline">
+                                            <h2 data-animation="animated zoomInRight">G-Learn</strong> Plataforma Educativa</h2>
+                                            <p class="lead" data-animation="animated fadeInLeft">Aprende, Construye y Conecta</p>
+                                                <a href="#" class="hover-btn-new"><span>Contactanos</span></a>
+                                        </div>
+                                    </div>
+                                </div><!-- end row -->            
+                            </div><!-- end container -->
+                        </div>
+                    </div><!-- end section -->
+                </div>
+                <!-- Left Control -->
+                <a class="new-effect carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <span class="fa fa-angle-left" aria-hidden="true"></span>
+                    <span class="sr-only">Anterior</span>
+                </a>
+
+                <!-- Right Control -->
+                <a class="new-effect carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <span class="fa fa-angle-right" aria-hidden="true"></span>
+                    <span class="sr-only">Posterior</span>
+                </a>
+            </div>
+        </div>
+        <!-- Final Primer Carrusel -->
+
+        <div id="overviews" class="section wb">
+            <div class="section-title row text-center">
+                <div class="col-md-8 offset-md-2">
+                    <h3>¿Quienes Somos?</h3>
+                    <p class="lead">
+                        Somos un grupo de jovenes que ha desarrollado la plataforma G-Learn dirigida a estudiantes
+                        y profesores. Presentamos una plataforma web interactiva que facilite y motive la educación 
+                        virtual a través de una enseñanza personalizada para los estudiantes, en el caso de maestros
+                        se presenta una plataforma de fácil acceso y manejo en las herramientas virtuales.
+                    </p>
+                </div>
+            </div>
+            <div class="container">
+                <div class="section-title row text-center">
+                    <div class="col-md-8 offset-md-2">
+                        <h1>Cursos mas visitados en 2020</h1>
+                    </div>
+                </div><!-- end title -->
+    
+                <hr class="invis"> 
+
+                <!-- Inicio Seccion Cursos -->	
+                <div class="row"> 
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="course-item">
+                            <div class="image-blog">
+                                <img src="images/math.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="course-br">
+                                <div class="course-title">
+                                    <h2><a href="clases1.html" title="">Matematicas</a></h2>
+                                </div>
+                                <div class="course-desc">
+                                    <p>Calculos Numericos, Algebra basica e Introduccion a Facterizacion</p>
+                                </div>
+                                <div class="course-rating">
+                                    4.5
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star-half"></i>								
+                                </div>
+                            </div>
+                            <div class="course-meta-bot">
+                                <ul>
+                                    <li><i class="fa fa-calendar" aria-hidden="true"></i> 1 Mes</li>
+                                    <li><i class="fa fa-users" aria-hidden="true"></i> 56 Estudiantes</li>
+                                    <li><i class="fa fa-book" aria-hidden="true"></i> 15 Lecciones</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="course-item">
+                            <div class="image-blog">
+                                <img src="images/chemi.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="course-br">
+                                <div class="course-title">
+                                    <h2><a href="#" title="">Quimica</a></h2>
+                                </div>
+                                <div class="blog-desc">
+                                    <p>Tabla Periodica, Historia de la Quimica y Quimica organica</p>
+                                </div>
+                                <div class="course-rating">
+                                    5
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>								
+                                </div>
+                            </div>
+                            <div class="course-meta-bot">
+                                <ul>
+                                    <li><i class="fa fa-calendar" aria-hidden="true"></i> 2 Meses</li>
+                                    <li><i class="fa fa-users" aria-hidden="true"></i> 56 Estudiantes</li>
+                                    <li><i class="fa fa-book" aria-hidden="true"></i> 12 Lecciones</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="hr3"> 
+
+                <div class="row"> 
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="course-item">
+                            <div class="image-blog">
+                                <img src="images/bio.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="course-br">
+                                <div class="course-title">
+                                    <h2><a href="#" title="">Biologia</a></h2>
+                                </div>
+                                <div class="course-desc">
+                                    <p>Introduccion a las ciencias biologicas, Animales y seres vivos</p>
+                                </div>
+                                <div class="course-rating">
+                                    4.5
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star-half"></i>								
+                                </div>
+                            </div>
+                            <div class="course-meta-bot">
+                                <ul>
+                                    <li><i class="fa fa-calendar" aria-hidden="true"></i> 1 Mes</li>
+                                    <li><i class="fa fa-users" aria-hidden="true"></i> 65 Estudiantes</li>
+                                    <li><i class="fa fa-book" aria-hidden="true"></i> 19 Lecciones</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- end col -->
+
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div class="course-item">
+                            <div class="image-blog">
+                                <img src="images/phy.png" alt="" class="img-fluid">
+                            </div>
+                            <div class="course-br">
+                                <div class="course-title">
+                                    <h2><a href="#" title="">Fisica</a></h2>
+                                </div>
+                                <div class="blog-desc">
+                                    <p>Movimiento Rectilineo Uniforme, Lanzamiento de Proyectiles </p>
+                                </div>
+                                <div class="course-rating">
+                                    4.5
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star"></i>	
+                                    <i class="fa fa-star-half"></i>								
+                                </div>
+                            </div>
+                            <div class="course-meta-bot">
+                                <ul>
+                                    <li><i class="fa fa-calendar" aria-hidden="true"></i> 2 Meses</li>
+                                    <li><i class="fa fa-users" aria-hidden="true"></i> 35 Estudiantes</li>
+                                    <li><i class="fa fa-book" aria-hidden="true"></i> 13 Lecciones</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div><!-- end col -->	
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr3"> 
+
+        <!-- Inicio Mision Vision -->
+        <div class="hmv-box" id="valores">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="inner-hmv">
+                            <div class="icon-box-hmv"><i class="flaticon-achievement"></i></div>
+                            <h3>Mision</h3>
+                            <div class="tr-pa">M</div>
+                            <p></p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="inner-hmv">
+                            <div class="icon-box-hmv"><i class="flaticon-history"></i></div>
+                            <h3>Propuesta de Valor</h3>
+                            <div class="tr-pa">H</div>
+                            <p>
+                                Presentamos una plataforma web interactiva que facilite y motive la educación 
+                                virtual a través de una enseñanza personalizada para los estudiantes, en el caso de maestros
+                                se presenta una plataforma de fácil acceso y manejo en las herramientas virtuales.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-12">
+                        <div class="inner-hmv">
+                            <div class="icon-box-hmv"><i class="flaticon-eye"></i></div>
+                            <h3>Vision</h3>
+                            <div class="tr-pa">V</div>
+                            <p></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final Mision Vision -->
+
+        <!-- Inicio Barra Estadistica -->
+        <div class="section cl">
+            <div class="container">
+                <div class="row text-left stat-wrap">
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-study"></i></span>
+                        <p class="stat_count">500</p>
+                        <h3>Estudiantes Activos</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-online"></i></span>
+                        <p class="stat_count">100</p>
+                        <h3>Cursos Publicados</h3>
+                    </div>
+
+                    <div class="col-md-4 col-sm-4 col-xs-12">
+                        <span data-scroll class="global-radius icon_wrap effect-1 alignleft"><i class="flaticon-study"></i></span>
+                        <p class="stat_count">150</p>
+                        <h3>Maestros Suscritos</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final de Barra Estadistica -->
+
+        <!-- Inicio Seccion Suscripcion -->
+        <div id="plan" class="section lb">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Elige tu plan de Pago</h3>
+                    <p>Para poder acceder a nuestra plataforma debe escoger un plan de suscripcion </p>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-6 offset-md-3">
+                        <div class="message-box">
+                            <ul class="nav nav-pills nav-stacked" id="myTabs">
+                                <li><a class="active" href="#tab1" data-toggle="pill">Suscripcion Mensual</a></li>
+                                <li><a href="#tab2" data-toggle="pill">Suscripcion anual</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <hr class="invis">
+
+                <!-- Suscripcion Mensual -->
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="tab-content">
+                            <div class="tab-pane active fade show" id="tab1">
+                                <div class="row text-center">
+                                    <!-- Primer plan de suscripcion -->
+                                    <div class="col-md-4">
+                                        <div class="pricing-table pricing-table-highlighted">
+                                            <div class="pricing-table-header grd1">
+                                                <h2>Plan Basico</h2>
+                                                <h2>$0</h2>
+                                                <h3>Al mes</h3>
+                                            </div>
+                                            <div class="pricing-table-space"></div>
+                                            <div class="pricing-table-features">
+                                                <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                                <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                                <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                                <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                                <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                            </div>
+                                            <div class="pricing-table-sign-up">
+                                                <a href="#" class="hover-btn-new orange"><span>Suscribirme </span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="pricing-table pricing-table-highlighted">
+                                            <div class="pricing-table-header grd1">
+                                                <h2>Plan Pro</h2>
+                                                <h2>$10</h2>
+                                                <h3>Por mes</h3>
+                                            </div>
+                                            <div class="pricing-table-space"></div>
+                                            <div class="pricing-table-features">
+                                                <p><i class="fa fa-envelope-o"></i> <strong>150</strong> Email Addresses</p>
+                                                <p><i class="fa fa-rocket"></i> <strong>65GB</strong> of Storage</p>
+                                                <p><i class="fa fa-database"></i> <strong>60</strong> Databases</p>
+                                                <p><i class="fa fa-link"></i> <strong>30</strong> Domains</p>
+                                                <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                            </div>
+                                            <div class="pricing-table-sign-up">
+                                                <a href="#" class="hover-btn-new orange"><span>Suscribirme</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-md-4">
+                                        <div class="pricing-table pricing-table-highlighted">
+                                            <div class="pricing-table-header grd1">
+                                                <h2>Plan Premium</h2>
+                                                <h2>$15</h2>
+                                                <h3>Por mes</h3>
+                                            </div>
+                                            <div class="pricing-table-space"></div>
+                                            <div class="pricing-table-features">
+                                                <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                                <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                                <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                                <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                                <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                            </div>
+                                            <div class="pricing-table-sign-up">
+                                                <a href="#" class="hover-btn-new orange"><span>Suscribirme</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                <!-- Suscripcion Anual -->
+                            <div class="tab-pane fade" id="tab2">
+                                <div class="row text-center">
+                                    <div class="col-md-4">
+                                        <div class="pricing-table pricing-table-highlighted">
+                                            <div class="pricing-table-header grd1">
+                                                <h2>Plan Basico</h2>
+                                                <h2>$0</h2>
+                                                <h3>Anualmente</h3>
+                                            </div>
+                                            <div class="pricing-table-space"></div>
+                                            <div class="pricing-table-features">
+                                                <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                                <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                                <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                                <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                                <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                            </div>
+                                            <div class="pricing-table-sign-up">
+                                                <a href="#" class="hover-btn-new orange"><span>Suscribirme/span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="pricing-table pricing-table-highlighted">
+                                            <div class="pricing-table-header grd1">
+                                                <h2>Plan Pro</h2>
+                                                <h2>$100</h2>
+                                                <h3>Anualmente</h3>
+                                            </div>
+                                            <div class="pricing-table-space"></div>
+                                            <div class="pricing-table-features">
+                                                <p><i class="fa fa-envelope-o"></i> <strong>150</strong> Email Addresses</p>
+                                                <p><i class="fa fa-rocket"></i> <strong>65GB</strong> of Storage</p>
+                                                <p><i class="fa fa-database"></i> <strong>60</strong> Databases</p>
+                                                <p><i class="fa fa-link"></i> <strong>30</strong> Domains</p>
+                                                <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                            </div>
+                                            <div class="pricing-table-sign-up">
+                                                <a href="#" class="hover-btn-new orange"><span>Suscribirme</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="pricing-table pricing-table-highlighted">
+                                            <div class="pricing-table-header grd1">
+                                                <h2>Plan Premium</h2>
+                                                <h2>$150</h2>
+                                                <h3>Anualmente</h3>
+                                            </div>
+                                            <div class="pricing-table-space"></div>
+                                            <div class="pricing-table-features">
+                                                <p><i class="fa fa-envelope-o"></i> <strong>250</strong> Email Addresses</p>
+                                                <p><i class="fa fa-rocket"></i> <strong>125GB</strong> of Storage</p>
+                                                <p><i class="fa fa-database"></i> <strong>140</strong> Databases</p>
+                                                <p><i class="fa fa-link"></i> <strong>60</strong> Domains</p>
+                                                <p><i class="fa fa-life-ring"></i> <strong>24/7 Unlimited</strong> Support</p>
+                                            </div>
+                                            <div class="pricing-table-sign-up">
+                                                <a href="#" class="hover-btn-new orange"><span>Suscribirme</span></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final Seccion Suscripcion -->
+
+        <!-- Equipo -->
+        <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/blog_1.jpg');">
+            <div class="container">
+                <div class="section-title text-center">
+                    <h3>Conoce a nuestro equipo</h3>
+                    <p>
+                        El equipo esta conformado por estudiantes universitarios de La Paz, Bolivia
+                    </p>
+                </div>
+
+                <div class="row">
+                    <div>
+                            <div class="testimonial clearfix">
+                                <div class="testi-meta">
+                                    <img src="images/testi_01.png" alt="" class="img-fluid">
+                                    <h4>Ivan Sangueza Alarcon </h4>
+                                </div>
+                                <div class="desc">
+                                    <h3>21 Años</i></h3>
+                                    <p class="lead">
+                                        Estudiante de Informatica UMSA <br>
+                                        Entusianta del desarrollo Web
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="testimonial clearfix">
+                                <div class="testi-meta">
+                                    <img src="images/tefi.jpg" alt="" class="img-fluid">
+                                    <h4>Stephanie Saavedra Ayarde </h4>
+                                </div>
+                                <div class="desc">
+                                    <h3>19 Años</i></h3>
+                                    <p class="lead">
+                                        Estudiante de Ingenieria de Sistemas UCB <br>
+                                        Entusianta de Internet of Things
+                                    </p>
+                                </div>
+                            </div>
+                    </div><!-- end col -->
+                    <div>
+                        <div class="testimonial clearfix">
+                            <div class="testi-meta">
+                                <img src="images/ale.png" alt="" class="img-fluid">
+                                <h4>Alejandro Nuñez Arroyo </h4>
+                            </div>
+                            <div class="desc">
+                                <h3>21 Años</i></h3>
+                                <p class="lead">
+                                    Estudiante de Ingenieria Mecatronica UCB <br>
+                                    Entusianta de Robotica
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="testimonial clearfix">
+                            <div class="testi-meta">
+                                <img src="images/testi_02.png" alt="" class="img-fluid">
+                                <h4> Rodrigo Fernandez Testa </h4>
+                            </div>
+                            <div class="desc">
+                                <h3>21 Años</i></h3>
+                                <p class="lead">
+                                    Estudiante de Ingenieria Mecatronica UCB <br>
+                                    Entusianta de Machine Learning
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <div class="testimonial clearfix">
+                            <div class="testi-meta">
+                                <img src="images/sara.jpg" >
+                                <h4>Sara Salazar Paredes </h4>
+                            </div>
+                            <div class="desc">
+                                <h3>20 Años</i></h3>
+                                <p class="lead">
+                                    Estudiante de Ingenieria de Sistemas UCB <br>
+                                    Entusianta de Seguridad Informatica
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final de la seccion Equipo -->
+
+        <!--Inicio Contact Us -->
+        <footer class="footer" style="background-color: #00296B;">
+            <div class="container">
+                <div class="row">
+                    <!-- Inicio primer bloque -->
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3>Sobre nosotros</h3>
+                            </div>
+                            <p> 
+                                Somos un grupo de jovenes que ha desarrollado la plataforma G-Learn dirigida a estudiantes
+                                y profesores. Presentamos una plataforma web interactiva que facilite y motive la educación 
+                                virtual a través de una enseñanza personalizada para los estudiantes, en el caso de maestros
+                                se presenta una plataforma de fácil acceso y manejo en las herramientas virtuales.
+                            </p>  
+                            <!-- Inicio redes sociales -->
+                            <div class="footer-right">
+                                <ul class="footer-links-soi">
+                                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-github"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+                                </ul>
+                            </div>
+                            <!-- Final redes sociales -->						
+                        </div>
+                    </div>
+                    <!-- Final primer bloque -->
+
+                    <!-- Inicio Segundo bloque -->
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3>Secciones</h3>
+                            </div>
+                            <ul class="footer-links">
+                                <li><a href="#">Inicio</a></li>
+                                <li><a href="#">Profesores</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Final segundo bloque -->
+                    
+                    <!-- Inicio tercer bloque -->
+                    <div class="col-lg-4 col-md-4 col-xs-12">
+                        <div class="widget clearfix">
+                            <div class="widget-title">
+                                <h3>Informacion de Contacto</h3>
+                            </div>
+                            <ul class="footer-links">
+                                <li><a href="mailto:#">info@glearn.com</a></li>
+                                <li><a href="#">www.glearn.com</a></li>
+                                <li>Calle 6 de Agosto, zona San Jorge #1223 La Paz, Bolivia</li>
+                                <li>+591 73218363</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Final tercer bloque -->
+                    
+                </div>
+            </div>
+        </footer>
+        <!-- Final Contact Us -->
+
+        <!-- Inicio Footer - Derechos Reservados -->
+        <div class="copyrights">
+            <div class="container">
+                <div class="footer-distributed">
+                    <div class="footer-center">                   
+                        <p class="footer-company-name">Todos los derechos reservados G-Learn. &copy; 2021</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Final Footer - Derechos reservados -->
+
+        <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+        <!-- ALL JS FILES -->
+        <script src="js/all.js"></script>
+        <!-- ALL PLUGINS -->
+        <script src="js/custom.js"></script>
+        <script src="js/timeline.min.js"></script>
+        <script>
+            timeline(document.querySelectorAll('.timeline'), {
+                forceVerticalMode: 700,
+                mode: 'horizontal',
+                verticalStartPosition: 'left',
+                visibleItems: 4
+            });
+        </script>
+    </body>
+</html>

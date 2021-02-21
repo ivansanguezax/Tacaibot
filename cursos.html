@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+	<link rel="stylesheet" href="../css/main.css">
+	<link rel="stylesheet" href="../css/css/all.min.css">
+<!-- Ionicons -->
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<!-- overlayScrollbars -->
+<link rel="stylesheet" href="../css/adminlte.min.css">
+
+    <!-- Basic -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
+   
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+     <!-- Site Metas -->
+    <title>SmartEDU - Education Responsive HTML5 Template</title>  
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <!-- Site Icons -->
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Site CSS -->
+    <link rel="stylesheet" href="style.css">
+    <!-- ALL VERSION CSS -->
+    <link rel="stylesheet" href="css/versions.css">
+    <!-- Responsive CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/custom.css">
+
+    <!-- Modernizer for Portfolio -->
+    <script src="js/modernizer.js"></script>
+
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+<body class="host_version"> 
+
+	<!-- Modal -->
+	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+		<div class="modal-content">
+			<div class="modal-header tit-up">
+				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+				<h4 class="modal-title">Customer Login</h4>
+			</div>
+			<div class="modal-body customer-box">
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs">
+					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
+					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+				</ul>
+				<!-- Tab panes -->
+				<div class="tab-content">
+					<div class="tab-pane active" id="Login">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email1" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-sm-10">
+									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
+										Submit
+									</button>
+									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+								</div>
+							</div>
+						</form>
+					</div>
+					<div class="tab-pane" id="Registration">
+						<form role="form" class="form-horizontal">
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" placeholder="Name" type="text">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="email" placeholder="Email" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="col-sm-12">
+									<input class="form-control" id="password" placeholder="Password" type="password">
+								</div>
+							</div>
+							<div class="row">							
+								<div class="col-sm-10">
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Save &amp; Continue
+									</button>
+									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
+										Cancel</button>
+								</div>
+							</div>
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+	  </div>
+	</div>
+
+    <!-- LOADER -->
+	<div id="preloader">
+		<div class="loader-container">
+			<div class="progress-br float shadow">
+				<div class="progress__item"></div>
+			</div>
+		</div>
+	</div>
+	<!-- END LOADER -->	
+
+    <!-- Start header -->
+	<header class="top-navbar">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="index.html">
+					<img src="images/logo.png" alt="" />
+				</a>
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbars-host">
+					<ul class="navbar-nav ml-auto">
+						<li class="nav-item active"><a class="nav-link" href="index.html">Home Page</a></li>
+						<li class="nav-item"><a class="nav-link" href="teachers.html">Teachers</a></li>
+						<li class="nav-item"><a class="nav-link" href="#valores">Valores</a></li>
+						<li class="nav-item"><a class="nav-link" href="#plan">Suscripcion</a></li>
+						<li class="nav-item"><a class="nav-link" href="cursos.html">Cursos</a></li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Login</span></a></li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+	</header>
+	<!-- End header -->
+	
+	<div class="all-title-box">
+		<div class="container text-center">
+			<h1>Aprende con Jacai, aprende con el mundo<span class="m_1">Con mas de 1000 mil cursos alrededor del mundo</span></h1>
+		</div>
+	</div>
+	<nav class="main-header navbar navbar-expand navbar-white navbar-light">
+        <!-- Left navbar links -->
+    
+    
+        <!-- Right navbar links -->
+        <ul class="navbar-nav ml-auto">
+          <!-- Messages Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#">
+              <i class="far fa-comments"></i>
+              <span class="badge badge-danger navbar-badge">3</span>
+            </a>
+            
+          </li>
+          <!-- Notifications Dropdown Menu -->
+          <li class="nav-item dropdown">
+            <a class="nav-link" data-toggle="dropdown" href="#">
+              <i class="far fa-bell"></i>
+              <span class="badge badge-warning navbar-badge">15</span>
+            </a>
+            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
+              <span class="dropdown-item dropdown-header">15 Notifications</span>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-envelope mr-2"></i> 4 new messages
+                <span class="float-right text-muted text-sm">3 mins</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-users mr-2"></i> 8 friend requests
+                <span class="float-right text-muted text-sm">12 hours</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item">
+                <i class="fas fa-file mr-2"></i> 3 new reports
+                <span class="float-right text-muted text-sm">2 days</span>
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item dropdown-footer">See All Notifications</a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" data-widget="control-sidebar" data-slide="true" href="#" role="button">
+              <i class="fas fa-th-large"></i>
+            </a>
+          </li>
+        </ul>
+      </nav>
+	<div id="teachers" class="section wb">
+		<section>
+			<div class="container-fluid">
+				<div class="card card-warning">
+					<div class="card-header">
+					<h3 class="card-title">Buscar curso</h3>
+					<div class="input-group">
+						<input type="text" id="buscar"class="form-control float-left" placeholder="Ingrese nombre de usuario">
+						<div class="input-group-append">
+							<button class="btn btn-primary"><i class="fas fa-search"></i></button>
+						</div>
+					</div>
+					</div>
+					<div class="card-body">
+					  <div id="usuarios" class="row d-flex align-items-lg-stretch">
+						<div class="container">
+							<div class="row">
+								<div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+									<div class="card" style="width: 18rem;">
+                                        <img src="images/quimicac.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Quimica 1</h5>
+                                          <p class="card-text">La química es la ciencia que estudia la composición, estructura y propiedades de la materia, así como los cambios que esta experimenta durante las reacciones químicas y su relación con la energía.​</p>
+                                          <a href="quimica.html" class="btn btn-primary">Ir al curso</a>
+                                        </div>
+                                      </div>
+								  </div>
+				
+                                  <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+									<div class="card" style="width: 18rem;">
+                                        <img src="images/matec.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Matematicas</h5>
+                                          <p class="card-text">onsiste en la aplicación de estrategias basadas en las propiedades del sistema numérico y en las operaciones aritméticas. El cálculo matemático es una competencia básica que debe ser ejercitada y desarrollada cotidianamente y en el ámbito escolar desde niños.</p>
+                                          <a href="clases1.html" class="btn btn-primary">Ir al curso</a>
+                                        </div>
+                                      </div>
+								  </div>
+				
+                                  <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+									<div class="card" style="width: 18rem;">
+                                        <img src="images/prograc.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Programacion</h5>
+                                          <p class="card-text">La programación es el proceso de creación de programas informáticos. Esta definición se puede interpretar de la siguiente manera. La programación no es más que una explicación a la computadora de qué, en qué forma y cómo llegar al usuario.</p>
+                                          <a href="#" class="btn btn-primary">Ir al curso</a>
+                                        </div>
+                                      </div>
+								  </div>
+
+                                  <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+									<div class="card" style="width: 18rem;">
+                                        <img src="images/fisicac.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Fsica</h5>
+                                          <p class="card-text">SLa física, es la ciencia natural que estudia los conceptos fundamentales de la materia, energía, espacio y tiempo, y las relaciones entre ellos. ... La física se encarga de estudiar los fenómenos físicos que ocurren en la naturaleza.</p>
+                                          <a href="fisica.html" class="btn btn-primary">Ir al curso</a>
+                                        </div>
+                                      </div>
+								  </div>
+								
+								  <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+									<div class="card" style="width: 18rem;">
+                                        <img src="images/lenguac.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Lenguaje</h5>
+                                          <p class="card-text">l lenguaje es un sistema de comunicación, formado por signos de tipo oral y escrito, que sirven para que los seres humanos podamos expresar nuestras ideas, pensamientos, emociones y sentimientos a otros seres humanos, ya sea a dos o más personas.</p>
+                                          <a href="#" class="btn btn-primary">Ir al curso</a>
+                                        </div>
+                                      </div>
+								  </div>
+				
+								  <div class="col-12 col-sm-6 col-md-4 d-flex align-items-stretch">
+									<div class="card" style="width: 18rem;">
+                                        <img src="images/inglesc.png" class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                          <h5 class="card-title">Ingles 1</h5>
+                                          <p class="card-text">El inglés es el idioma principal en Anguila, Antigua y Barbuda, Australia, las Bahamas, Barbados, Belice, Bermudas, Territorio Británico del Océano Índico, las Islas Vírgenes Británicas, Canadá, Islas Caimán, Dominica, las Islas Malvinas, Gibraltar, Granada, Guam, Guernsey, Guyana, Irlanda, Isla de Man, Jamaica, Jersey ...</p>
+                                          <a href="#" class="btn btn-primary">Ir al curso</a>
+                                        </div>
+                                      </div>
+								  </div>
+								
+								
+							</div><!-- end row -->
+						</div>
+					
+					  </div>
+					</div>
+					<div class="card-footer">
+					   
+					
+					</div>
+				</div>
+			</div>
+			
+		  
+      <!-- end container -->
+		
+    </div><!-- end section -->	
+	
+
+   
+
+   
+
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>About US</h3>
+                        </div>
+                        <p> Integer rutrum ligula eu dignissim laoreet. Pellentesque venenatis nibh sed tellus faucibus bibendum. Sed fermentum est vitae rhoncus molestie. Cum sociis natoque penatibus et magnis dis montes.</p>
+                        <div class="footer-right">
+							<ul class="footer-links-soi">
+								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
+								<li><a href="#"><i class="fa fa-github"></i></a></li>
+								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
+								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
+								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
+							</ul><!-- end links -->
+						</div>
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+
+				<div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Information Link</h3>
+                        </div>
+                        <ul class="footer-links">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Pricing</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Contact</a></li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+                <div class="col-lg-4 col-md-4 col-xs-12">
+                    <div class="widget clearfix">
+                        <div class="widget-title">
+                            <h3>Contact Details</h3>
+                        </div>
+
+                        <ul class="footer-links">
+                            <li><a href="mailto:#">info@yoursite.com</a></li>
+                            <li><a href="#">www.yoursite.com</a></li>
+                            <li>PO Box 16122 Collins Street West Victoria 8007 Australia</li>
+                            <li>+61 3 8376 6284</li>
+                        </ul><!-- end links -->
+                    </div><!-- end clearfix -->
+                </div><!-- end col -->
+				
+            </div><!-- end row -->
+        </div><!-- end container -->
+    </footer><!-- end footer -->
+
+    
+
+    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
+
+    <!-- ALL JS FILES -->
+    <script src="js/all.js"></script>
+    <!-- ALL PLUGINS -->
+    <script src="js/custom.js"></script>
+
+</body>
+</html>
+<script src="../javas/adminlte.min.js"></script>

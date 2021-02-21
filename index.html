@@ -36,6 +36,35 @@
 </head>
 <body id="page-top" class="politics_version">
 
+	<!-- Load Facebook SDK for JavaScript -->
+	<div id="fb-root"></div>
+	<script>
+	  window.fbAsyncInit = function() {
+		FB.init({
+		  xfbml            : true,
+		  version          : 'v9.0'
+		});
+	  };
+
+	  (function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+	<!-- Your Chat Plugin code -->
+	<div class="fb-customerchat"
+	  attribution="setup_tool"
+	  page_id="106789031456802">
+	</div>
+
+
+
+
+
+
     <!-- LOADER -->
     <div id="preloader">
         <div id="main-ld">
@@ -63,11 +92,9 @@
               <a class="nav-link js-scroll-trigger" href="#about">Sobre Nosotros</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Servicios</a>
+              <a class="nav-link js-scroll-trigger" href="#services">Integraciones</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#portfolio">Integraciones</a>
-            </li>
+            
 			<!-- <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#blog">Blog</a>
             </li> -->

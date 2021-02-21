@@ -21,54 +21,7 @@
   }
 
 
-@font-face {
-    font-family: "Roboto";
-    src: url("./fonts/Roboto-Bold.ttf");
-    }
 
-@font-face {
-    font-family: "Playfair Display";
-    src: url("./fonts/PlayfairDisplay-Bold.ttf");
-    }
-
-@font-face {
-    font-family: 'Caveat';
-    src: url("./fonts/Caveat-Bold.ttf");
-    }
-
-@font-face {
-    font-family: "Orbitron";
-    src: url("./fonts/Orbitron-Bold.ttf");
-       }
-
-@font-face {
-        font-family: "Dancing Script";
-        src: url("./fonts/DancingScript-Bold.ttf");
-        }
-    
-@font-face {
-        font-family: "MuseoModerno";
-        src: url("./fonts/MuseoModerno-Bold.ttf");
-        }
-    
-@font-face {
-        font-family: 'Grenze Gotisch';
-        src: url("./fonts/GrenzeGotisch-Bold.ttf");
-        }
-    
-@font-face {
-        font-family: "Grandstander";
-        src: url("./fonts/Orbitron-Bold.ttf");
-           }
-@font-face {
-        font-family: 'Cinzel';
-        src: url("./fonts/Cinzel-Bold.ttf");
-            }
-        
-@font-face {
-        font-family: "Texturina";
-        src: url("./fonts/Texturina_18pt-BoldItalic.ttf");
-        }
 
 
 .font1{
@@ -112,9 +65,9 @@
     
 
 
-    background: #673AB7;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #512DA8, #673AB7);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #512DA8, #673AB7); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #F2f2f2;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f2f2f2, #f2f2f2);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f2f2f2, #f2f2f2); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     
     
 
@@ -987,22 +940,22 @@ input[type="radio"]:hover
 }
 
 .eyeb1 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyebrowsample1.gif");
+    background-image: url("/media/CharacterMan/eyebrowsample1.gif");
 }
 .eyeb2 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyebrowsample2.gif");
+    background-image: url("/media/CharacterMan/eyebrowsample2.gif");
 }
 .eyeb3 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyebrowsample3.gif");
+    background-image: url("/media/CharacterMan/eyebrowsample3.gif");
 }
 .eyeb4 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyebrowsample4.gif");
+    background-image: url("/media/CharacterMan/eyebrowsample4.gif");
 }
 .eyeb5 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyebrowsample5.gif");
+    background-image: url("/media/CharacterMan/eyebrowsample5.gif");
 }
 .eyeb6 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyebrowsample6.gif");
+    background-image: url("/media/CharacterMan/eyebrowsample6.gif");
 }
 
 
@@ -1290,40 +1243,40 @@ input[type="radio"]:hover
 /* eyes styles*/
 
 .eye1 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyeample1.jpg");
+    background-image: url("/media/CharacterMan/eyeample1.jpg");
 }
 .eye2 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyeample2.jpg");
+    background-image: url("/media/CharacterMan/eyeample2.jpg");
 }
 .eye3 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyeample3.jpg");
+    background-image: url("/media/CharacterMan/eyeample3.jpg");
 }
 .eye3w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/eyeample3.jpg");
+    background-image: url("/media/CharacterWoman/eyeample3.jpg");
 }
 .eye4 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyeample4.jpg");
+    background-image: url("/media/CharacterMan/eyeample4.jpg");
 }
 .eye5 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyeample5.jpg");
+    background-image: url("/media/CharacterMan/eyeample5.jpg");
 }
 .eye5w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/eyeample5.jpg");
+    background-image: url("/media/CharacterWoman/eyeample5.jpg");
 }
 .eye6 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyeample6.jpg");
+    background-image: url("/media/CharacterMan/eyeample6.jpg");
 }
 .eye6w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/eyeample6.jpg");
+    background-image: url("/media/CharacterWoman/eyeample6.jpg");
 }
 .eye7 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyeample7.jpg");
+    background-image: url("/media/CharacterMan/eyeample7.jpg");
 }
 .eye8 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyeample8.jpg");
+    background-image: url("/media/CharacterMan/eyeample8.jpg");
 }
 .eye9 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/eyeample9.jpg");
+    background-image: url("/media/CharacterMan/eyeample9.jpg");
 }
 .eye10 input[type='radio']:after{
     background-image: url("./media/CharacterMan/eyeample10.jpg");
@@ -1331,44 +1284,44 @@ input[type="radio"]:hover
 
 /* mouth styles */
 .mouth1 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/mouthsample1.gif");
+    background-image: url("/media/CharacterMan/mouthsample1.gif");
 }
 .mouth2 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/mouthsample2.gif");
+    background-image: url("/media/CharacterMan/mouthsample2.gif");
 }
 .mouth3 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/mouthsample3.gif");
+    background-image: url("/media/CharacterMan/mouthsample3.gif");
 }
 .mouth3w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/mouthsample3.gif");
+    background-image: url("/media/CharacterWoman/mouthsample3.gif");
 }
 .mouth4 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/mouthsample4.gif");
+    background-image: url("/media/CharacterMan/mouthsample4.gif");
 }
 .mouth4w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/mouthsample4.gif");
+    background-image: url("/media/CharacterWoman/mouthsample4.gif");
 }
 .mouth5 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/mouthsample5.gif");
+    background-image: url("/media/CharacterMan/mouthsample5.gif");
 }
 .mouth6 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/mouthsample6.gif");
+    background-image: url("/media/CharacterMan/mouthsample6.gif");
 }
 .mouth6w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/mouthsample6.gif");
+    background-image: url("/media/CharacterWoman/mouthsample6.gif");
 }
 .mouth7 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/mouthsample7.gif");
+    background-image: url("/media/CharacterMan/mouthsample7.gif");
 }
 .mouth8 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/mouthsample8.gif");
+    background-image: url("/media/CharacterMan/mouthsample8.gif");
 }
 .mouth9 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/mouthsample9.gif");
+    background-image: url("/media/CharacterMan/mouthsample9.gif");
 }
 
 .mouth10 input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/mouthsample10.gif");
+    background-image: url("/media/CharacterWoman/mouthsample10.gif");
 }
 
 
@@ -1403,95 +1356,95 @@ input[type="radio"]:hover
 }
 
 .hairb1 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample1.gif");
+    background-image: url("/media/CharacterMan/hairsample1.gif");
 }
 .hairb2 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample2.gif");
+    background-image: url("/media/CharacterMan/hairsample2.gif");
 }
 .hairb3 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample3.gif");
+    background-image: url("/media/CharacterMan/hairsample3.gif");
 }
 .hairb4 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample4.gif");
+    background-image: url("/media/CharacterMan/hairsample4.gif");
 }
 .hairb5 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample5.gif");
+    background-image: url("/media/CharacterMan/hairsample5.gif");
 }
 .hairb6 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample6.gif");
+    background-image: url("/media/CharacterMan/hairsample6.gif");
 }
 .hairb7 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample7.gif");
+    background-image: url("/media/CharacterMan/hairsample7.gif");
 }
 .hairb8 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample8.gif");
+    background-image: url("/media/CharacterMan/hairsample8.gif");
 }
 .hairb9 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample9.gif");
+    background-image: url("/media/CharacterMan/hairsample9.gif");
 }
 .hairb10 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample10.gif");
+    background-image: url("/media/CharacterMan/hairsample10.gif");
 }
 .hairb11 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample11.gif");
+    background-image: url("/media/CharacterMan/hairsample11.gif");
 }
 .hairb12 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample12.gif");
+    background-image: url("/media/CharacterMan/hairsample12.gif");
 }
 .hairb13 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample13.gif");
+    background-image: url("/media/CharacterMan/hairsample13.gif");
 }
 .hairb14 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample14.gif");
+    background-image: url("/media/CharacterMan/hairsample14.gif");
 }
 .hairb15 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/hairsample15.gif");
+    background-image: url("/media/CharacterMan/hairsample15.gif");
 }
 
 
 
 .hairb2w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample2.gif");
+    background-image: url("/media/CharacterWoman/hairsample2.gif");
 }
 .hairb3w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample3.gif");
+    background-image: url("/media/CharacterWoman/hairsample3.gif");
 }
 .hairb4w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample4.gif");
+    background-image: url("/media/CharacterWoman/hairsample4.gif");
 }
 .hairb5w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample5.gif");
+    background-image: url("/media/CharacterWoman/hairsample5.gif");
 }
 .hairb6w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample6.gif");
+    background-image: url("/media/CharacterWoman/hairsample6.gif");
 }
 .hairb7w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample7.gif");
+    background-image: url("/media/CharacterWoman/hairsample7.gif");
 }
 .hairb8w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample8.gif");
+    background-image: url("/media/CharacterWoman/hairsample8.gif");
 }
 .hairb9w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample9.gif");
+    background-image: url("/media/CharacterWoman/hairsample9.gif");
 }
 .hairb10w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample10.gif");
+    background-image: url("/media/CharacterWoman/hairsample10.gif");
 }
 .hairb11w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample11.gif");
+    background-image: url("/media/CharacterWoman/hairsample11.gif");
 }
 .hairb12w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample12.gif");
+    background-image: url("/media/CharacterWoman/hairsample12.gif");
 }
 
 .hairb13w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample13.gif");
+    background-image: url("/media/CharacterWoman/hairsample13.gif");
 }
 .hairb14w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample14.gif");
+    background-image: url("/media/CharacterWoman/hairsample14.gif");
 }
 .hairb15w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/hairsample15.gif");
+    background-image: url("/media/CharacterWoman/hairsample15.gif");
 }
 
 
@@ -1499,34 +1452,34 @@ input[type="radio"]:hover
 
 /*beards style*/
 .beardb1 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/beardsample1.gif");
+    background-image: url("/media/CharacterMan/beardsample1.gif");
 }
 .beardb2 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/beardsample2.gif");
+    background-image: url("/media/CharacterMan/beardsample2.gif");
 }
 .beardb3 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/beardsample3.gif");
+    background-image: url("/media/CharacterMan/beardsample3.gif");
 }
 .beardb4 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/beardsample4.gif");
+    background-image: url("/media/CharacterMan/beardsample4.gif");
 }
 .beardb5 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/beardsample5.gif");
+    background-image: url("/media/CharacterMan/beardsample5.gif");
 }
 .beardb6 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/beardsample6.gif");
+    background-image: url("/media/CharacterMan/beardsample6.gif");
 }
 .beardb7 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/beardsample7.gif");
+    background-image: url("/media/CharacterMan/beardsample7.gif");
 }
 .beardb8 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/beardsample8.gif");
+    background-image: url("/media/CharacterMan/beardsample8.gif");
 }
 .beardb9 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/beardsample9.gif");
+    background-image: url("/media/CharacterMan/beardsample9.gif");
 }
 .beardb10 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/beardsample10.gif");
+    background-image: url("/media/CharacterMan/beardsample10.gif");
 }
 
 
@@ -1778,244 +1731,244 @@ input[type="radio"]:hover
 }
 
 .shirtb1 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/shirtsample1.gif");
+    background-image: url("/media/CharacterMan/shirtsample1.gif");
 }
 .shirtb2 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/shirtsample2.gif");
+    background-image: url("/media/CharacterMan/shirtsample2.gif");
 }
 .shirtb3 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/shirtsample3.gif");
+    background-image: url("/media/CharacterMan/shirtsample3.gif");
 }
 .shirtb4 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/shirtsample4.gif");
+    background-image: url("/media/CharacterMan/shirtsample4.gif");
 }
 .shirtb5 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/shirtsample5.gif");
+    background-image: url("/media/CharacterMan/shirtsample5.gif");
 }
 .shirtb6 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/shirtsample6.gif");
+    background-image: url("/media/CharacterMan/shirtsample6.gif");
 }
 
 .wshirtb1 input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/shirtsample1.gif");
+    background-image: url("/media/CharacterWoman/shirtsample1.gif");
 }
 .wshirtb2 input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/shirtsample2.gif");
+    background-image: url("/media/CharacterWoman/shirtsample2.gif");
 }
 .wshirtb3 input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/shirtsample3.gif");
+    background-image: url("/media/CharacterWoman/shirtsample3.gif");
 }
 .wshirtb4 input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/shirtsample4.gif");
+    background-image: url("/media/CharacterWoman/shirtsample4.gif");
 }
 .wshirtb5 input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/shirtsample5.gif");
+    background-image: url("/media/CharacterWoman/shirtsample5.gif");
 }
 
 
 /*print styles*/
 .printb1 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample1.gif");
+    background-image: url("/media/CharacterMan/printsample1.gif");
 }
 .printb2 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample2.gif");
+    background-image: url("/media/CharacterMan/printsample2.gif");
 }
 .printb3 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample3.gif");
+    background-image: url("/media/CharacterMan/printsample3.gif");
 }
 .printb4 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample4.gif");
+    background-image: url("/media/CharacterMan/printsample4.gif");
 }
 .printb5 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample5.gif");
+    background-image: url("/media/CharacterMan/printsample5.gif");
 }
 .printb6 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample6.gif");
+    background-image: url("/media/CharacterMan/printsample6.gif");
 }
 .printb7 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample7.gif");
+    background-image: url("/media/CharacterMan/printsample7.gif");
 }
 .printb8 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample8.gif");
+    background-image: url("/media/CharacterMan/printsample8.gif");
 }
 .printb9 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample9.gif");
+    background-image: url("/media/CharacterMan/printsample9.gif");
 }
 .printb10 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample10.gif");
+    background-image: url("/media/CharacterMan/printsample10.gif");
 }
 .printb11 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample11.gif");
+    background-image: url("/media/CharacterMan/printsample11.gif");
 }
 .printb12 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample12.gif");
+    background-image: url("/media/CharacterMan/printsample12.gif");
 }
 .printb13 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample13.gif");
+    background-image: url("/media/CharacterMan/printsample13.gif");
 }
 .printb14 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample14.gif");
+    background-image: url("/media/CharacterMan/printsample14.gif");
 }
 .printb15 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample15.gif");
+    background-image: url("/media/CharacterMan/printsample15.gif");
 }
 .printb16 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample16.gif");
+    background-image: url("/media/CharacterMan/printsample16.gif");
 }
 .printb17 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample17.gif");
+    background-image: url("/media/CharacterMan/printsample17.gif");
 }
 .printb18 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample18.gif");
+    background-image: url("/media/CharacterMan/printsample18.gif");
 }
 .printb19 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample19.gif");
+    background-image: url("/media/CharacterMan/printsample19.gif");
 }
 .printb20 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample20.gif");
+    background-image: url("/media/CharacterMan/printsample20.gif");
 }
 .printb21 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample21.gif");
+    background-image: url("/media/CharacterMan/printsample21.gif");
 }
 .printb22 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample22.gif");
+    background-image: url("/media/CharacterMan/printsample22.gif");
 }
 .printb23 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample23.gif");
+    background-image: url("/media/CharacterMan/printsample23.gif");
 }
 .printb24 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample24.gif");
+    background-image: url("/media/CharacterMan/printsample24.gif");
 }
 .printb25 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample25.gif");
+    background-image: url("/media/CharacterMan/printsample25.gif");
 }
 .printb26 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample26.gif");
+    background-image: url("/media/CharacterMan/printsample26.gif");
 }
 .printb27 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample27.gif");
+    background-image: url("/media/CharacterMan/printsample27.gif");
 }
 .printb28 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample28.gif");
+    background-image: url("/media/CharacterMan/printsample28.gif");
 }
 .printb29 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample29.gif");
+    background-image: url("/media/CharacterMan/printsample29.gif");
 }
 .printb30 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample30.gif");
+    background-image: url("/media/CharacterMan/printsample30.gif");
 }
 .printb31 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample31.gif");
+    background-image: url("/media/CharacterMan/printsample31.gif");
 }
 .printb32 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample32.gif");
+    background-image: url("/media/CharacterMan/printsample32.gif");
 }
 .printb33 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample33.gif");
+    background-image: url("/media/CharacterMan/printsample33.gif");
 }
 .printb34 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample34.gif");
+    background-image: url("/media/CharacterMan/printsample34.gif");
 }
 .printb35 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample35.gif");
+    background-image: url("/media/CharacterMan/printsample35.gif");
 }
 .printb36 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample36.gif");
+    background-image: url("/media/CharacterMan/printsample36.gif");
 }
 .printb37 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample37.gif");
+    background-image: url("/media/CharacterMan/printsample37.gif");
 }
 .printb38 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample38.gif");
+    background-image: url("/media/CharacterMan/printsample38.gif");
 }
 .printb39 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample39.gif");
+    background-image: url("/media/CharacterMan/printsample39.gif");
 }
 .printb40 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/printsample40.gif");
+    background-image: url("/media/CharacterMan/printsample40.gif");
 }
 
 
 /*accessories styles*/
 
 .accb1w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/acsample1.gif");
+    background-image: url("/media/CharacterWoman/acsample1.gif");
 }
 .accb2w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/acsample2.gif");
+    background-image: url("/media/CharacterWoman/acsample2.gif");
 }
 .accb3w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/acsample3.gif");
+    background-image: url("/media/CharacterWoman/acsample3.gif");
 }
 .accb4w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/acsample4.gif");
+    background-image: url("/media/CharacterWoman/acsample4.gif");
 }
 .accb5w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/acsample5.gif");
+    background-image: url("/media/CharacterWoman/acsample5.gif");
 }
 .accb6w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/acsample6.gif");
+    background-image: url("/media/CharacterWoman/acsample6.gif");
 }
 .accb7w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/acsample7.gif");
+    background-image: url("/media/CharacterWoman/acsample7.gif");
 }
 .accb8w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/acsample8.gif");
+    background-image: url("/media/CharacterWoman/acsample8.gif");
 }
 .accb9w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/acsample9.gif");
+    background-image: url("/media/CharacterWoman/acsample9.gif");
 }
 .accb10w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/acsample10.gif");
+    background-image: url("/media/CharacterWoman/acsample10.gif");
 }
 
 /*Pants styles*/
 .pantb1 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/pantsample1.gif");
+    background-image: url("/media/CharacterMan/pantsample1.gif");
 }
 .pantb2 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/pantsample2.gif");
+    background-image: url("/media/CharacterMan/pantsample2.gif");
 }
 .pantb3 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/pantsample3.gif");
+    background-image: url("/media/CharacterMan/pantsample3.gif");
 }
 .pantb4 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/pantsample4.gif");
+    background-image: url("/media/CharacterMan/pantsample4.gif");
 }
 .pantb5 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/pantsample5.gif");
+    background-image: url("/media/CharacterMan/pantsample5.gif");
 }
 
 
 .pantb1w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/pantsample1.gif");
+    background-image: url("/media/CharacterWoman/pantsample1.gif");
 }
 .pantb2w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/pantsample2.gif");
+    background-image: url("/media/CharacterWoman/pantsample2.gif");
 }
 .pantb3w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/pantsample3.gif");
+    background-image: url("/media/CharacterWoman/pantsample3.gif");
 }
 .pantb4w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/pantsample4.gif");
+    background-image: url("/media/CharacterWoman/pantsample4.gif");
 }
 .pantb5w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/pantsample5.gif");
+    background-image: url("/media/CharacterWoman/pantsample5.gif");
 }
 
 /**/
 .shoesb1 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/shoessample1.gif");
+    background-image: url("/media/CharacterMan/shoessample1.gif");
 }
 .shoesb2 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/shoessample2.gif");
+    background-image: url("/media/CharacterMan/shoessample2.gif");
 }
 .shoesb3 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/shoessample3.gif");
+    background-image: url("/media/CharacterMan/shoessample3.gif");
 }
 
 .shoesb3w input[type='radio']:after{
-    background-image: url("./media/CharacterWoman/shoessample3.gif");
+    background-image: url("/media/CharacterWoman/shoessample3.gif");
 }
 
 
@@ -2050,10 +2003,10 @@ input[type="radio"]:hover
 }
 
 .genderb1 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/maleIcon.gif");
+    background-image: url("/media/CharacterMan/maleIcon.gif");
 }
 .genderb2 input[type='radio']:after{
-    background-image: url("./media/CharacterMan/femaleIcon.gif");
+    background-image: url("/media/CharacterMan/femaleIcon.gif");
 }
 
 
